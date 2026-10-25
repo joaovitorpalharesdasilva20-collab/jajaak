@@ -28,6 +28,18 @@
       "created_at": "2026-10-25T04:46:15.483Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "e418f162-499b-4067-8c68-54de5b2dbef5",
+      "role": "user",
+      "content": "Consegue integrasse ao meu site via FTP?",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-10-25T04:46:57.010Z",
+      "sender": "ios",
+      "is_cancelled": false
     }
   ]
 }
