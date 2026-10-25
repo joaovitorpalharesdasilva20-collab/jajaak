@@ -3,7 +3,7 @@
   "name": "Jajaak",
   "createdAt": "2026-10-25T04:45:07.218Z",
   "filename": "a1e55ee8-9eac-4ed3-ab4f-747691eeb126.json",
-  "geminiStarted": false,
+  "geminiStarted": true,
   "messages": [
     {
       "id": "9dfb4a28-7a47-4793-8dac-1e35ffee8548",
@@ -15,6 +15,18 @@
       "parent_message_id": null,
       "created_at": "2026-10-25T04:46:06.390Z",
       "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "7ce34214-648d-42c6-87e4-a337a79ff4d2",
+      "role": "agent",
+      "content": "Perfeito! A partir de agora, todas as nossas mensagens serão em português.\n\nComo posso te ajudar com o seu projeto hoje?",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "9dfb4a28-7a47-4793-8dac-1e35ffee8548",
+      "created_at": "2026-10-25T04:46:15.483Z",
+      "sender": "macOS",
       "is_cancelled": false
     }
   ]
