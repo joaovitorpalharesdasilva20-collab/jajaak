@@ -40,6 +40,18 @@
       "created_at": "2026-10-25T04:46:57.010Z",
       "sender": "ios",
       "is_cancelled": false
+    },
+    {
+      "id": "1bb74391-0871-401f-a513-b13277c6424f",
+      "role": "agent",
+      "content": "**Sim, é possível integrar via FTP!**\n\nComo o seu projeto está conectado diretamente ao seu repositório GitHub, a forma mais segura e profissional de fazer isso é através de um **deploy automático com GitHub Actions**.\n\n### Como funciona:\n1. **Automação:** Toda alteração feita aqui é enviada para o GitHub, que dispara um fluxo automático para sincronizar os arquivos no seu servidor FTP (cPanel, Hostinger, Hostgator, Locaweb, etc.).\n2. **Segurança total:** Você não precisa enviar suas senhas aqui no chat. As credenciais ficam protegidas nos **Secrets** do seu repositório no GitHub.\n\n---\n\n### Se quiser ativar essa integração, posso criar o arquivo de configuração para você:\n\n1. Eu configuro o fluxo de envio automático (`.github/workflows/ftp-deploy.yml`).\n2. Você só precisará acessar o repositório no GitHub em **Settings** > **Secrets and variables** > **Actions** e adicionar:\n   - `FTP_SERVER`: Endereço do servidor (ex: `ftp.seusite.com.br`)\n   - `FTP_USERNAME`: Usuário FTP\n   - `FTP_PASSWORD`: Senha do FTP\n\nDeseja que eu configure esse fluxo automático agora? Se tiver uma pasta específica no servidor (como `public_html/`), me avise!",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "e418f162-499b-4067-8c68-54de5b2dbef5",
+      "created_at": "2026-10-25T04:47:18.881Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
